@@ -14,7 +14,7 @@ class Weather:
         return self._forecast.get(attr)
 
     def get_weather(self):
-        url = "%s/forecast/%s/%s,%s" % (Weather.DARK_SKY_URL, self._key, self._lat, self._long)
+        url = "%s/forecast/%s/%s,%s?units=si&lang=fr" % (Weather.DARK_SKY_URL, self._key, self._lat, self._long)
         self._forecast = req.get(url).json()
         return self
 
