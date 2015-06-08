@@ -3,7 +3,7 @@ Weather•Ma•Jig
 
 ##It's a thing-a-ma-jig for weather&hellip;and the command line
 
-insired by this thread on reddit: http://www.reddit.com/r/commandline/comments/1jjgu1/bash_getting_weather/
+inspired by this thread on reddit: http://www.reddit.com/r/commandline/comments/1jjgu1/bash_getting_weather/
 
 Instructions:
 ---
@@ -13,7 +13,7 @@ Instructions:
 * use pip to install requirements.txt
 
 ```
-sudo pip -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 * install this thing
